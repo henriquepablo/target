@@ -3,6 +3,7 @@
     "name": "target",
     "slug": "target",
     "version": "1.0.0",
+    "scheme": "target",
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -13,6 +14,10 @@
     "ios": {
       "bundleIdentifier": "com.lacerda.target",
       "icon": "./assets/ios-icon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
   }
 }
